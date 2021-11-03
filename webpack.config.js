@@ -20,7 +20,7 @@ module.exports = {
     hot: true,
   },
   plugins: [
-    isDevelopment && new ReactRefreshPlugin(),
+    isDevelopment && new ReactRefreshWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
     })
