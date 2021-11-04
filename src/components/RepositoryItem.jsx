@@ -7,6 +7,6 @@ export function RepositoryItem(props) {
       <a href={props.repository.html_url}>
         Acessar Repositório
       </a>
-    </li>
+    </li> 
   );
 }
